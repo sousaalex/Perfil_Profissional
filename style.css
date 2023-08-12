@@ -79,7 +79,8 @@ image{
 .home{
     display: flex;
     
-    background: url(/image/Alex.jpg) no-repeat;
+ /*    background: url(/image/Alex.jpg) no-repeat; */
+ background-color: #222;
     
     background-size: cover;
     height: 100vh;
@@ -165,8 +166,20 @@ section .title{
     margin-bottom: 60px;
     padding-bottom: 20px;
     position: relative;
+    color: #dfdfdf;
 }
-section .title::before{
+
+.title-sobre{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #dfdfdf;
+}
+/* section .title::before{
     content: "";
     position: absolute;
     bottom: 0;
@@ -175,8 +188,8 @@ section .title::before{
     height: 3px;
     background: #111;
     transform: translateX(-50%);
-}
-section .title::after{
+} */
+/* section .title::after{
     position: absolute;
     bottom:-12px;
     left: 50%;
@@ -185,7 +198,7 @@ section .title::after{
     color: #00804b;
     padding: 5px;
     transform: translateX(-50%);
-}
+} */
 .about, .services, .skills, .teams, .contact, footer{
     font-family: 'Roboto', sans-serif;
 }
@@ -201,9 +214,9 @@ section .title::after{
 
 /*  sessão sobre  */
 
-.about .title::after{
+/* .about .title::after{
     content: "Quem sou eu";
-}
+} */
 .about .about-content .left{
     width: 45%;
 }
@@ -420,9 +433,9 @@ section .title::after{
     background: #00804b!important;
 }
 /*  sessão Contato  */
-.contact .title::after{
+/* .contact .title::after{
     content: "Fale conosco";
-}
+} */
 .contact .contact-content .column{
     width: calc(50% - 30px);
 }
@@ -699,4 +712,57 @@ footer span a:hover{
     .home .content p {
       font-size: 1.5rem;
     }
+  }
+  /* --------- */
+   .contact{
+    background-color: #00804b;
+   
+} 
+  .btn-contact {
+    margin: auto;
+    border: solid;
+    padding:  1em 5em;
+    border-radius: 4em;
+    display: flex;
+    text-align: center;
+   border-color: #fff;
+   color: #fff;
+   transition: 1s;
+   background-color: transparent;
+    }
+    .btn-contact a{
+        color: #fff;
+    }
+    .btn-contact:hover{
+        background-color: #fff;
+        color: #00804b;
+    }
+    .about.title{
+        color: #00804b;
+    }
+
+a[type='submit']{
+  background-color: transparent;
+  color: #dfdfdf;
+  padding: 1em;
+  text-align: center;
+  width: 50%;
+  border-radius: 5em ; 
+  display: block;
+  cursor: pointer;
+  border-bottom: 50px;
+  margin: auto  ;
+  transition: 1s;
+  border: 3px #c4c0c0 solid; 
+
+}
+.button-submit{
+    margin-top: -3em;
+}
+
+a:hover{
+    background-color: #dfdfdf;
+    color: #00804b;
+
+  
   }
