@@ -111,8 +111,8 @@ image{
 .home .home-content a{
     transition: 1s;
     display: inline-block;
-    background: #00804b;
-    color: #fff;
+    background: transparent;
+    color: #00804b;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
@@ -120,8 +120,8 @@ image{
     border: 2px solid #00804b;
 }
 .home .home-content a:hover{
-    color: #00804b;
-    background: none;
+    color: #fff;
+    background: #00804b;
 }
 
 /*  Menu  Mobile  */
@@ -332,8 +332,8 @@ section .title{
 }
 .skills .skills-content .left a{
     display: inline-block;
-    background: #00804b;
-    color: #fff;
+    background: transparent;
+    color: #00804b;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
@@ -343,8 +343,8 @@ section .title{
     transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover{
-    color: #00804b;
-    background: none;
+    color: #fff;
+    background: #00804b;
 }
 /* .skills .skills-content .right .bars{
     margin-bottom: 15px;
