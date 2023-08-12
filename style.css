@@ -620,7 +620,9 @@ footer span a:hover{
         width: 100%;
         margin-bottom: 35px;
     }
-   
+/*     footer{
+        margin-top: 15px;
+    } */
 }
 @media (max-width: 690px){
     .home .home-content .text-2{
@@ -756,9 +758,10 @@ a[type='submit']{
 }
 .button-submit{
     margin-top: -3em;
+    
 }
 
-a:hover{
+a[type='submit']:hover{
     background-color: #dfdfdf;
     color: #00804b;
 
