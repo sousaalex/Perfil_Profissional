@@ -793,10 +793,9 @@ a[type='submit']{
   padding: 1em;
   text-align: center;
   width: 50%;
-  border-radius: 5em ; 
+  border-radius: .2em ; 
   display: block;
   cursor: pointer;
-  border-bottom: 50px;
   margin: auto  ;
   transition: 1s;
   border: 3px #c4c0c0 solid; 
